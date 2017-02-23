@@ -1,0 +1,54 @@
+html,body{
+  margin:0;
+  padding: 0;
+  
+}
+body{
+  background-image: url(../images/01.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+@keyframes rain {
+  0%{margin-top: 0px;}
+  25%{margin-top: 150px;}
+  50%{margin-top: 350px;}
+  100%{margin-top:700px; }
+}
+
+.first{
+  animation: rain 1s linear infinite;
+}
+.second{
+  animation: rain 6s linear infinite;
+}
+.third{
+  animation: rain 5s linear infinite;
+}
+.fourth{
+  animation: rain 9s linear infinite;
+}
+.fifth{
+  animation: rain 10s linear infinite;
+}
+.six{
+  animation: rain 2s linear infinite;
+}
+.seven{
+  animation: rain 8s linear infinite;
+}
+.eight{
+  animation: rain 4s linear infinite;
+}
+.nine{
+  animation: rain 7s linear infinite;
+}
+.ten{
+  animation: rain 3s linear infinite;
+}
